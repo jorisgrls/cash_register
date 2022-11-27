@@ -1,0 +1,27 @@
+.payments-layout{
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    width:100%;
+
+    &__title{
+        padding-bottom:10px;
+        margin-bottom:30px;
+        font-size:20px;
+        font-weight:bold;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+
+    }
+
+    &__content{
+        width:100%;
+    }
+}
+
+h1{
+    @apply text-xl ;
+    @apply font-semibold;
+    @apply text-gray-900;
+}

@@ -1,0 +1,37 @@
+.page{
+    display:flex;
+}
+
+table{
+    box-shadow: 0 5px 12px -12px rgb(0,0,0 / 29%);
+    border-collapse: collapse;
+    border-color:grey;
+    width:100%;
+}
+
+td{
+    text-align: center;
+}
+
+thead{
+    vertical-align: middle;
+    border-color:inherit;
+}
+
+table thead tr{
+    background:#fff;
+
+}
+
+tr{
+    border-color:inherit;
+}
+
+tbody{
+    vertical-align:middle;
+    border-color:inherit;
+}
+
+tr:nth-of-type(odd){
+    background: #f2f2f2;
+}
